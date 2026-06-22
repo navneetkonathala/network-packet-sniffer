@@ -1,0 +1,29 @@
+# Network Packet Sniffer - Requirements
+# Install these with: pip install -r requirements.txt
+
+scapy>=2.5.0
+
+# ────────────────────────────────────────────────────────────
+# ADDITIONAL SETUP NOTES:
+# ────────────────────────────────────────────────────────────
+#
+# Windows:
+#   1. Install Npcap from https://npcap.com/ (required for raw packet capture)
+#   2. Then: pip install scapy
+#   3. Run Command Prompt as Administrator before running the script
+#
+# Linux (Ubuntu/Debian):
+#   sudo apt-get install python3-dev libpcap-dev
+#   pip install scapy
+#   Run with: sudo python3 packet_sniffer.py
+#
+# macOS:
+#   brew install libpcap  (if needed)
+#   pip install scapy
+#   Run with: sudo python3 packet_sniffer.py
+#
+# ────────────────────────────────────────────────────────────
+# Built-in modules also used (no installation needed):
+#   sys, os, time, datetime, json, signal, socket,
+#   threading, collections
+# ────────────────────────────────────────────────────────────
